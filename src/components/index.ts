@@ -1,2 +1,4 @@
 export { Navbar } from "./Navbar";
 export { Footer } from "./Footer";
+export { Header } from "./Header";
+export { ContactForm } from "./ContactForm";
