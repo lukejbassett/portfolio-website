@@ -1,5 +1,15 @@
-function App() {
-  return <></>;
-}
+import { Navbar, Footer } from "./components";
+import { About, Contact, Hero, Projects } from "./sections";
 
-export default App;
+export function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
