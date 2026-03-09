@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="font-inter w-full max-w-5xl mx-auto px-4 py-2 flex justify-between ">
+    <header className="font-inter w-full max-w-5xl mx-auto px-4 py-2 flex justify-between items-center">
       <div className="flex gap-3 items-center">
         <a href="/" className="text-xl text-accent">
           Luke
