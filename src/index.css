@@ -4,3 +4,9 @@
 html {
   scroll-behavior: smooth;
 }
+section + section {
+  padding-top: 2rem;
+}
+p {
+  padding-bottom: 1rem;
+}

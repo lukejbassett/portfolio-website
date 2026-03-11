@@ -1,11 +1,14 @@
-import { HeroAnimation, Logo, Navbar, NextSection } from "../components";
+import { Navbar } from "../components";
+import { HeroAnimation, NextSection } from "../animations";
 
 export function Hero() {
   return (
     <>
       <section className="h-screen flex flex-col p-12">
         <header className="flex justify-between items-center">
-          <Logo name="Luke"/>
+          <span className="text-4xl font-semibold tracking-widest font-code">
+            Luke
+          </span>
           <Navbar />
         </header>
         <div className="flex-1 flex flex-col items-center justify-center text-center">
